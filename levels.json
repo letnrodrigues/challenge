@@ -1,0 +1,31 @@
+levels = `[{
+			"name": "Growing",
+			"initial": {"size": 1, "color": "#FF0000"},
+			"final": {"size": 2, "color": "#FF0000"},
+			"modifiers": [{"type": "resize", "size": 2}]
+		},{
+			"name": "Let it Blue",
+			"initial": {"size": 1, "color": "#FF0000"},
+			"final": {"size": 1, "color": "#FF0"},
+			"modifiers": [{"type": "colorize", "color": "#FF0"}]
+		},{
+			"name": "Pulsating",
+			"initial": {"size": 2, "color": "#FF0000"},
+			"final": {"size": 2, "color": "#FF0000"},
+			"modifiers": [{"type": "resize", "size": 1}, {"type": "resize", "size": 2}]
+		},{
+			"name": "Mix and Match",
+			"initial": {"size": 2, "color": "#FF0000"},
+			"final": {"size": 1, "color": "#FF0"},
+			"modifiers": [{"type": "colorize", "color": "#FF0"}, 
+							{"type": "resize", "size": 1}]
+		},{
+			"name": "Time to Choose",
+			"initial": {"size": 1, "color": "#FF0000"},
+			"final": {"size": 2, "color": "#FF0000"},
+			"modifiers": [{"type": "select", "options": [{"type": "resize", "size": 1},
+														 {"type": "resize", "size": 2},
+														 {"type": "colorize", "color": "#FF0"},
+														 {"type": "colorize", "color": "#FF0000"}]
+			}]
+		}]`
